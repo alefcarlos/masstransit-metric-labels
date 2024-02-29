@@ -23,6 +23,7 @@ builder.Services.AddMassTransit(configure =>
 
     configure.UsingRabbitMq((context, cfg) =>
     {
+        cfg.UseInstrumentation(options => options.ServiceName = "name");
         cfg.UseHostDefaults(context);
 
         cfg.ConfigureEndpoints(context);

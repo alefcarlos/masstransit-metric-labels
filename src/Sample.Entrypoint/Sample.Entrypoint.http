@@ -4,3 +4,4 @@ GET {{Sample.Entrypoint_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+GET {{Sample.Entrypoint_HostAddress}}/metrics/
