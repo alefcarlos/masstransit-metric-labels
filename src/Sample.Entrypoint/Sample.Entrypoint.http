@@ -1,0 +1,6 @@
+@Sample.Entrypoint_HostAddress = http://localhost:5251
+
+GET {{Sample.Entrypoint_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
